@@ -14,7 +14,7 @@ html, body {
   z-index: 2;
   opacity: 1;
   /*background: url(https://uago.at/-da00/sgim.jpg) no-repeat;*/
-  background-image: url(/Users/Shammie/Documents/img2.jpg);
+  background-image: url(img2.jpg);
   background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
