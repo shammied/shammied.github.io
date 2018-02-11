@@ -44,7 +44,7 @@ html, body {
   margin-bottom: 20px;
 }
 /* typewriter effect for welcome message */
-@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes typing { from { width: 50%; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .title h3 {
