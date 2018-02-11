@@ -43,7 +43,7 @@ html, body {
   text-align: center;
   margin-bottom: 20px;
 }
-/* typewriter effect for welcome message */
+/* typewriter effect for welcome message 
 @-webkit-keyframes typing { from { width: 50%; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
@@ -58,7 +58,7 @@ html, body {
 	overflow: hidden;
 	-webkit-animation: typing 4s steps(22, end),
 	           blink-caret .5s step-end infinite alternate;
-}
+} */
 a:link {
   text-decoration: none;
   display: inline;
