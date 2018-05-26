@@ -13,7 +13,6 @@ html, body {
   height: 100%;
   z-index: 2;
   opacity: 1;
-  /*background: url(https://uago.at/-da00/sgim.jpg) no-repeat;*/
   background-image: url(img2.jpg);
   background-size: cover;
   -ms-background-size: cover;
@@ -44,7 +43,22 @@ html, body {
   margin-bottom: 20px;
 }
 /* typewriter effect for welcome message */
-/*.title h3 {
+.typing
+{
+  font: bold 100% "Quicksand", sans-serif;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: type 3s steps(50, end) alternate;
+  animation: type 3s steps(50, end) alternate;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+/*
+.title h3 {
 	font: bold 100% "Quicksand", sans-serif;
   color: white;
 	border-right: .1em solid white;
@@ -53,6 +67,8 @@ html, body {
 	margin: 2em 1em;
 	white-space: nowrap;
 	overflow: hidden;
+	-webkit-animation: typing 4s steps(22, end),
+	           blink-caret .5s step-end infinite alternate;
 } */
 a:link {
   text-decoration: none;
@@ -77,3 +93,4 @@ a:hover {
 }
 /* end of title page */
 
+  
