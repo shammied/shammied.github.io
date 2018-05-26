@@ -44,7 +44,7 @@ html, body {
   margin-bottom: 20px;
 }
 /* typewriter effect for welcome message */
-.title h3 {
+/*.title h3 {
 	font: bold 100% "Quicksand", sans-serif;
   color: white;
 	border-right: .1em solid white;
@@ -53,7 +53,7 @@ html, body {
 	margin: 2em 1em;
 	white-space: nowrap;
 	overflow: hidden;
-} 
+} */
 a:link {
   text-decoration: none;
   display: inline;
@@ -76,65 +76,4 @@ a:hover {
   margin: 10px;
 }
 /* end of title page */
-/* about me section */
-.img {
-  border-radius: 50%;
-  display: inline;
-  float: left;
-}
-.section .aboutme {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  z-index: 2;
-  background-size: cover;
-  background-color: #F0E68C;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  text-align: left;
-  color: black;
-  position: relative;
-}
-.aboutme h1{
-  padding-left: 20px;
-  color: black;
-  font-family: "Barlow", sans-serif;
-  font-size: 30px;
-}
-.aboutme {
-  max-width: 100%;
-}
-.aboutme p {
-  display:inline-block;
-  color: black;
-}
-/* end of about me section */
-/* skills section */
-.section .skills {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  z-index: 2;
-  background-size: cover;
-  background-color: #F5FFFA;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  text-align: left;
-  color: black;
-  position: relative;
-}
-.skills {
-  max-width: 100%;
-}
-.skills h1{
-  padding-left: 20px;
-  color: black;
-  font-family: "Barlow", sans-serif;
-  font-size: 30px;
-}
 
-/* end of skills section */
